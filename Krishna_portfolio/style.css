@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #40514e
+}
+
+.container{
+
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+
+
+.main-contant{
+    font-family: "Sacramento", cursive;
+    color: #66bfbf;
+    font-size: 50px;
+}
+.heading-2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.botom-cloud{
+    position: absolute;
+}
+
+.profile-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.middel-contant{
+    margin: 100px;
+}
+.great{
+    color: #66bfbf;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.intro{
+    
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    border: 5px dotted #66bfbf;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 5%;
+}
+h2{
+    color: #66bfbf;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 250px 600px;
+    /* grid-template-rows: 250px 600px; */
+    /* margin: 400px;
+    margin-top: 100px; */
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 20px;
+}
+.cat-img{
+    width: 240px;
+}
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    line-height: 30px;
+
+}
+.chillie{
+    width: 200px;
+    margin-left:10px ;
+}
+.contect-m{
+    line-height: 30px;
+    width: 40%;
+    margin: 60px auto ;
+    
+}
+.botom-con{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.footer{
+    color: #11999e;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.cc{
+    padding-top: 20px;
+    color: white;
+}
+
+.mountain {
+    transform: translateY(calc(-50vh + var(--scroll) * 0.2));
+  }
+  
+
+@keyframes mountainMove {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .mountain {
+    animation: mountainMove 5s infinite ease-in-out;
+  }
+  
